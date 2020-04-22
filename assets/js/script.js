@@ -30,9 +30,39 @@ function startTime() {
 }
 
 $(document).ready(function(){
-  $("#togglebookmarks").click(function(){
-    $("#hiddenbookmarks").toggle();
+
+  $("#study").click(function(){
+    $("#hiddenstudy").toggle();
   });
+
+  $("#social").click(function(){
+    $("#hiddensocial").toggle();
+  });
+
+  $("#shopping").click(function(){
+    $("#hiddenshopping").toggle();
+  });
+
+  $("#reddit").click(function(){
+    $("#hiddenreddit").toggle();
+  });
+
+  $("#media").click(function(){
+    $("#hiddenmedia").toggle();
+  });
+
+  $("#docs").click(function(){
+    $("#hiddendocs").toggle();
+  });
+
+  $("#tools").click(function(){
+    $("#hiddentools").toggle();
+  });
+
+  $("#other").click(function(){
+    $("#hiddenother").toggle();
+  });
+
 });
 
 document.addEventListener('click', function (event) {
