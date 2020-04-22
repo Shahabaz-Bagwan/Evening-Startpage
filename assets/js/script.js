@@ -29,15 +29,6 @@ function startTime() {
   var time = setTimeout(function(){ startTime() }, 60000);
 }
 
-const quotes = [
-  'Hello, world...',
-  'yeet',
-  'fuq'
-];
-document.getElementById("header-quote").innerText = quotes[
-  Math.floor(Math.random() * quotes.length)
-];
-
 $(document).ready(function(){
   $("#togglebookmarks").click(function(){
     $("#hiddenbookmarks").toggle();
